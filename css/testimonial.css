@@ -334,7 +334,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 900px){
+@media (min-width: 768px) and (max-width: 1023px){
     body{
         background-color: hsl(0, 0%, 81%);
     }
@@ -355,7 +355,7 @@
 
     /* cards */
     .card1{
-        padding: 5% 15% 0% 5%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(263, 55%, 52%);
         grid-column: 1/4;
@@ -363,7 +363,7 @@
     }
 
     .card2{
-        padding: 5% 5% 5% 10%;
+        padding: 6% 6% 6% 6%;
         border-radius: 8px;
         background-color: hsl(217, 19%, 35%);
         grid-column: 4/5;
@@ -372,7 +372,7 @@
     }
 
     .card3{
-        padding: 5% 10% 0% 10%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         color: hsl(0, 0%, 45%);
@@ -381,7 +381,7 @@
     }
 
     .card4{
-        padding: 5% 9% 2% 5%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(219, 29%, 14%);
         grid-column: 2/5;
@@ -390,7 +390,7 @@
     }
 
     .card5{
-        padding: 5% 15% 0% 7%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         color: hsl(0, 0%, 45%);
@@ -411,19 +411,25 @@
         margin-bottom: 7%;
     }
 
+    .header5{
+        margin-bottom: 6%;
+    }
+
 
     /* images */
 
     .img1, .img4{
+        margin-bottom: 5%;
         width: 8%;
         border-radius: 100%;
     }
     .img2, .img3{
+        margin-left: -2%;
         width: 20%;
         border-radius: 100%;
     }
     .img5{
-        width: 7%;
+        width: 6%;
         margin-bottom: 10%;
     }
 
@@ -431,16 +437,16 @@
 
     .name1, .name4{
         margin-left: 13%;
-        margin-top: -13%;
+        margin-top: -12.4%;
     }
 
     .name2, .name3{
         width: 80%;
-        margin-left: 25%;
+        margin-left: 23%;
         margin-top: -27%;
     }
     .name5{
-        margin-top: -16%;
+        margin-top: -15.3%;
         margin-left: 10%;
     }
 
@@ -458,11 +464,11 @@
     .p1card1{
         font-weight: 600;
         color: hsl(0, 0%, 100%);
-        width: 110%;
+        width: 100%;
         font-size: 17px;
     }
     .p2card1{
-        width: 110%;
+        width: 100%;
         font-size: 13px;
     }
 
@@ -473,7 +479,7 @@
         color: hsl(0, 0%, 100%);
     }
     .p2card2{
-        width: 95%;
+        width: 100%;
     }
 
 
@@ -493,11 +499,11 @@
     .p1card4{
         font-weight: 600;
         color: hsl(0, 0%, 100%);
-        width: 110%;
+        width: 100%;
         font-size: 17px;
     }
     .p2card4{
-        width: 106%;
+        width: 100%;
         font-size: 13px;
     }
 
@@ -511,17 +517,148 @@
     .p2card5{
         color: hsl(0, 0%, 35%);
         font-size: 13px;
-        width: 110%;
+        width: 100%;
     }
 
 
     .attribution{
-        margin-top: 1%;
+        margin-right: -45%;
+    }
+}
+
+@media (min-width:769px){
+    .img3{
+        margin-bottom: 6.5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+}
+
+@media (min-width:770px){
+    .img2{
+        margin-bottom: 5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+}
+
+@media (min-width:797px){
+    .img3{
+        margin-bottom: 6.5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .img2{
+        margin-bottom: 5.5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .name1, .name4{
+        margin-left: 13%;
+        margin-top: -12%;
+    }
+    .name5{
+        margin-top: -15%;
+    }
+}
+
+@media (min-width:804px){
+    .img2{
+        margin-bottom: 6%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .img3{
+        margin-bottom: 7%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .name1, .name4{
+        margin-left: 13%;
+        margin-top: -12.5%;
     }
 }
 
 
-@media (min-width:1200px){
+@media (min-width:824px){
+    .name1{
+        margin-left: 13%;
+        margin-top: -12%;
+    }
+    .name4{
+        margin-left: 13%;
+        margin-top: -12%;
+    }
+    .name5{
+        margin-top: -15%;
+    }
+}
+
+
+@media (min-width:827px){
+    .img2{
+        margin-bottom: 6.5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .img3{
+        margin-bottom: 7.5%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+}
+
+@media (min-width:860px){
+    .name1{
+        margin-top: -12%;
+    }
+}
+
+
+@media (min-width:904px){
+    .img2{
+        margin-bottom: 8%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .img3{
+        margin-bottom: 8%;
+        margin-left: -2%;
+        width: 20%;
+        border-radius: 100%;
+    }
+    .name1{
+        margin-top: -11.7%;
+    }
+}
+
+@media (min-width:939px){
+    .img1{
+        width: 8%;
+    }
+    .img4{
+        width: 7%;
+    }
+    .img5{
+        width: 6%;
+    }
+    .name4{
+        margin-top: -11.3%;
+    }
+}
+
+
+
+
+@media (min-width:1024px) and (max-width: 1200px){
     body{
         background-color: hsl(0, 0%, 81%);
     }
@@ -542,7 +679,7 @@
 
     /* cards */
     .card1{
-        padding: 5% 9% 2% 5%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(263, 55%, 52%);
         grid-column: 1/3;
@@ -550,7 +687,7 @@
     }
 
     .card2{
-        padding: 5% 5% 5% 10%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(217, 19%, 35%);
         grid-column: 3/3;
@@ -559,7 +696,7 @@
     }
 
     .card3{
-        padding: 5% 10% 5% 7%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         color: hsl(0, 0%, 45%);
@@ -568,7 +705,7 @@
     }
 
     .card4{
-        padding: 5% 9% 2% 5%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(219, 29%, 14%);
         grid-column: 2/4;
@@ -577,7 +714,7 @@
     }
 
     .card5{
-        padding: 5% 10% 5% 7%;
+        padding: 5% 5% 5% 5%;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         color: hsl(0, 0%, 45%);
@@ -602,7 +739,12 @@
         width: 8%;
         border-radius: 100%;
     }
-    .img2, .img3, .img5{
+    .img2, .img3{
+        width: 16%;
+        border-radius: 100%;
+        margin-bottom: 10%;
+    }
+    .img5{
         width: 18%;
         border-radius: 100%;
     }
@@ -612,12 +754,16 @@
 
     .name1, .name4{
         margin-left: 13%;
-        margin-top: -8%;
+        margin-top: -13%;
     }
 
-    .name3, .name2, .name5{
+    .name2, .name3{
+        margin-left: 22%;
+        margin-top: -26%;
+    }
+    .name5{
         margin-left: 25%;
-        margin-top: -16%;
+        margin-top: -23%;
     }
 
     .sname1, .sname2, .sname4{
@@ -634,11 +780,9 @@
     .p1card1{
         font-weight: 600;
         color: hsl(0, 0%, 100%);
-        width: 110%;
         font-size: 17px;
     }
     .p2card1{
-        width: 110%;
         font-size: 13px;
     }
 
@@ -647,9 +791,6 @@
         font-size: 17px;
         font-weight: 600;
         color: hsl(0, 0%, 100%);
-    }
-    .p2card2{
-        width: 95%;
     }
 
 
@@ -669,15 +810,37 @@
     .p1card4{
         font-weight: 600;
         color: hsl(0, 0%, 100%);
-        width: 102%;
         font-size: 17px;
     }
     .p2card4{
-        width: 101%;
         font-size: 13px;
     }
+}
 
-    .attribution{
-        margin-top: 1%;
+@media (min-width:1070px){
+    .img1{
+        margin-bottom: 5%;
+    }
+    .img2{
+        margin-bottom: 9.5%;
+    }
+    .img4{
+        margin-bottom: 5%;
+    }
+    .img5{
+        margin-bottom: 5.5%;
+    }
+}
+
+@media (min-width:1090px){
+    .img1{
+        margin-bottom: 5.1%;
+    }
+}
+
+
+@media (min-width:1110px) {
+    .img1{
+        margin-bottom: 5.5%;
     }
 }
