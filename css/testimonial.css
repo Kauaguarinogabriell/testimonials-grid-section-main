@@ -139,7 +139,7 @@ section{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     main{
         display: flex;
         flex-direction: column;
